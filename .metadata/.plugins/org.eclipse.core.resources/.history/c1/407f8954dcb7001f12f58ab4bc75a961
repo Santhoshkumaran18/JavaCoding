@@ -1,0 +1,15 @@
+package InterviewRevision;
+
+import java.util.*;
+
+public class ArrayToString {
+
+	public static void main(String[] args) {
+		String[] arr= {"Santhosh","Sanjay"};
+		List<String> list=Arrays.asList(arr);
+		
+		System.out.println(list);
+
+	}
+
+}

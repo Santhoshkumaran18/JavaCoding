@@ -1,0 +1,7 @@
+package Santhosh.pageObjects;
+
+import Santhosh.AbstractComponents.AbstractComponent;
+
+public class CheckOutPage extends AbstractComponent {
+
+}

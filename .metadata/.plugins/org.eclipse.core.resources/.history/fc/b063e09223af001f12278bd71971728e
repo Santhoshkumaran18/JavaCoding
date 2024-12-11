@@ -1,0 +1,17 @@
+@tag
+Feature: Purchase the order from the ecommerce site
+  I want to use this template for my feature file
+
+  Background: 
+
+  @tag
+  Scenario Outline: Error validation of the ecommerce page
+    Given I landed on the ecommerce page
+    When Logged in with the username <name> and password <password>
+    When I add the product <productName> from cart
+    And checkout <productName> and submit the order
+    Then "THANKYOU FOR THE ORDER." message is displayed on the confirmation page
+
+    Examples: 
+      | name                         | password       | productName |
+      | santhoshkumaran@santhosh.com | December2024@$ | ZARA COAT 3 |

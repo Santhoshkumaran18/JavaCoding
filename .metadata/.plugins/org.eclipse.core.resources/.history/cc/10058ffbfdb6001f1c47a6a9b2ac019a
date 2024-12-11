@@ -1,0 +1,12 @@
+import java.util.Arrays;
+
+public class BubbleSorting {
+
+	public static void main(String[] args) {
+		Integer[] a= {1,2,43,5,-3343,-34983};
+		Arrays.sort(a);
+		System.out.println(Arrays.toString(a));
+
+	}
+
+}

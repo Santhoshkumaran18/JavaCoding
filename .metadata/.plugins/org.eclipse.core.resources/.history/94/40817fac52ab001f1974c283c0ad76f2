@@ -1,0 +1,11 @@
+package Santhosh.Data;
+
+import org.apache.commons.io.FileUtils;
+
+public class DataReader {
+		
+	public void getJsonToMap() {
+		//reading the json to string
+		FileUtils.readfi
+	}
+}

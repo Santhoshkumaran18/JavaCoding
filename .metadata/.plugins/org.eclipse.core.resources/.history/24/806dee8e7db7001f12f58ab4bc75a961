@@ -1,0 +1,15 @@
+package InterviewRevision;
+
+import java.util.HashMap;
+
+public class CountNumberofLetterInStringUsingHashMap {
+
+	public static void main(String[] args) {
+		 String s="Saaanthosh";
+		 
+		 HashMap<Character,Integer> map=new HashMap<>();
+		 
+
+	}
+
+}

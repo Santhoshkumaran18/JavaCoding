@@ -1,0 +1,12 @@
+package javaProject;
+
+import java.util.HashMap;
+
+public class HashMapExercises {
+
+	public static void main(String[] args) {
+		HashMap<Integer,String> map=new HashMap<>();
+
+	}
+
+}

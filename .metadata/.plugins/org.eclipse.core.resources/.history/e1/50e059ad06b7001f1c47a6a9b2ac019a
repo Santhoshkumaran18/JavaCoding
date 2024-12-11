@@ -1,0 +1,17 @@
+
+public class RemoveSpecialCharacters {
+
+	public static void main(String[] args) {
+		String s="Santhosh244####";
+		
+		for(char c: s.toCharArray()) {
+			if(Character.isLetterOrDigit(c)) {
+				System.out.print(c);
+			}
+		}
+		
+		String input="Santhsoh"
+
+	}
+
+}

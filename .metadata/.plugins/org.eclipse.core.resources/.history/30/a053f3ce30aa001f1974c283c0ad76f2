@@ -1,0 +1,27 @@
+package Santhosh.pageObjects;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
+
+import Santhosh.AbstractComponents.AbstractComponent;
+
+public class CartPage extends AbstractComponent {
+	
+	WebDriver driver;
+
+	public CartPage(WebDriver driver) {
+		super(driver);
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+
+	}
+	
+	List<WebElement> productext=driver.findElements();
+	
+	By cartSection=By.cssSelector(".cartSection h3");
+
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "email": "santhoshkumaran@santhosh.com",
+    "password": "December2024@$",
+    "product": "ZARA COAT 3"
+  }
+]
+
+// <maven.compiler.release>17</maven.compiler.release>
+
+// <maven.compiler.source>1.8</maven.compiler.source>
+// 		<maven.compiler.target>1.8</maven.compiler.target>
+// cd Desktop\Selenium Interview prep 30 sep\SeleniumFramework

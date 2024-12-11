@@ -1,0 +1,22 @@
+
+public class newclassmap
+{
+	public static void main(String[] args) {
+		String s="234353kfdsklfd";
+		int sum=0;
+		String result="";
+		for(char c:s.toCharArray()){
+		    if(Character.isDigit(c)){
+		        sum+=Character.getNumericValue(c);
+		    }
+		}
+		
+		for(char c: s.toCharArray()){
+		    if(Character.isLetter(c)){
+		        result+=c.charAt(i);
+		    }
+		}
+		System.out.println(sum);
+		System.out.println(result);
+	}
+}

@@ -1,0 +1,16 @@
+import java.util.HashMap;
+
+public class CountNumbersInJava {
+
+	public static void main(String[] args) {
+		String input = "different";
+		HashMap<Character,Integer> charcountMap=new HashMap<>();
+		for(char c: input.toCharArray()) {
+			charcountMap.put(c, charcountMap.getOrDefault(c,0)+1);{
+				
+			}
+
+	}
+	}
+
+}

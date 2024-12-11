@@ -1,0 +1,20 @@
+package DataDriven.ExcelDataProvider;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class dataProvider {
+	//we can pass multiple set of data in the form of arrays
+	@Test(dataProvider = "getData")
+	public void testCaseData() {
+		
+	}
+	
+	@DataProvider(name = "driveTest")
+	public Object[][] getData() {
+		
+		Object[][] data= {{"Hello","Text"},{"Sanjay","Santhosh"},{"Srinivasan","Umasankari"}};
+		return data;
+		
+	}
+}

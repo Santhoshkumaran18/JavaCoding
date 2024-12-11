@@ -1,0 +1,7 @@
+package Santhosh.TestComponents;
+
+import org.testng.IRetryAnalyzer;
+
+public class Retry implements IRetryAnalyzer{
+
+}

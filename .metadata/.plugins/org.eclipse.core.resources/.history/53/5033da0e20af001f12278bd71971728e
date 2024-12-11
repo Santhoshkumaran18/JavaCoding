@@ -1,0 +1,10 @@
+package cucumber;
+
+import io.cucumber.core.backend.Glue;
+import io.cucumber.testng.CucumberOptions;
+
+@CucumberOptions(features = {"src/test/java/cucumber",glue=Santhosh.stepDefinitions)
+public class TestNGTestRunner {
+	
+
+}

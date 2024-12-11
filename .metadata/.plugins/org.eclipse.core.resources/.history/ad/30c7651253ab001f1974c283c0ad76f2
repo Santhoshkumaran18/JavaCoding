@@ -1,0 +1,13 @@
+package Santhosh.Data;
+
+import java.io.File;
+
+import org.apache.commons.io.FileUtils;
+
+public class DataReader {
+		
+	public void getJsonToMap() {
+		//reading the json to string
+		String jsonContent=FileUtils.readFileToString(new File(System.getProperty("user.dir")+"src//test//java//Santhosh//Data//PurchaseOrder.json"))
+	}
+}

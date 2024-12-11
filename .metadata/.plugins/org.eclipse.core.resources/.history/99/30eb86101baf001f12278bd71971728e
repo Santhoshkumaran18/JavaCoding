@@ -1,0 +1,12 @@
+package Santhosh.stepDefinitions;
+
+import io.cucumber.java.en.Given;
+
+public class StepDefinitionsImpl {
+	
+	@Given("I landed on the ecommerce page")
+	public void I landed on the ecommerce page() {
+		
+	}
+
+}

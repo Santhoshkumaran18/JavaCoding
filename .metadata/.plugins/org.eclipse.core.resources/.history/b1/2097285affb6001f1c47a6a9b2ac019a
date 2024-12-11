@@ -1,0 +1,11 @@
+
+public class StringReverseFunction {
+
+	public static void main(String[] args) {
+		String s="Santhosh";
+		StringBuilder san=new StringBuilder(s);
+		System.out.println(san.reverse());
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package InterviewRevision;
+
+public class PrimeNumbersUsingFalse {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

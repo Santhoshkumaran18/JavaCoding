@@ -1,0 +1,22 @@
+package InterviewRevision;
+
+public class CountOfEachLetterInString {
+
+	public static void main(String[] args) {
+		String s="SANTHOSHKumaran";
+		
+		String lcinput=s.toLowerCase();
+		
+		int[] n=new int[26];
+		
+		for(char c: lcinput.toCharArray()) {
+			if(Character.isLetter(c)) {
+				n[c-'a']++;
+			}
+		}
+		
+		
+ 
+	}
+
+}

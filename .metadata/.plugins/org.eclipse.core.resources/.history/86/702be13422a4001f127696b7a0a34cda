@@ -1,0 +1,10 @@
+package SeleniumCoreConcepts;
+
+public class FindOutTheLinks {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

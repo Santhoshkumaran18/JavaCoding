@@ -1,0 +1,24 @@
+package DataBaseTesting;
+
+import java.lang.module.ModuleDescriptor.Requires;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class jdbcConnection {
+	public static void main(String[] args) throws SQLException {
+		String host="127.0.0.1";
+		String port="3306";
+		Connection con=DriverManager.getConnection("jdbc:mysql://" + host + ":" + port + "/QAdbtupdated", "root", "Sanjay06@$18");
+		Statement s=con.createStatement();
+		
+		ResultSet rs=s.executeQuery("select * from EmployeeInfo where name='Santhosh'");
+		rs.next();
+		System.out.println(rs.getString("location"));
+		
+		 
+	}
+
+}

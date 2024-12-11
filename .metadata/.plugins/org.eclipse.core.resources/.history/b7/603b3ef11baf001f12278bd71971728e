@@ -1,0 +1,16 @@
+package Santhosh.stepDefinitions;
+
+import java.io.IOException;
+
+import Santhosh.TestComponents.BaseTest;
+import io.cucumber.java.en.Given;
+
+public class StepDefinitionsImpl extends BaseTest {
+	public LandingPage landingPage;
+	@Given("I landed on the ecommerce page")
+	public void I_landed_on_the_ecommerce_page() throws IOException {
+		landingPage=launchApplication();
+		
+	}
+
+}

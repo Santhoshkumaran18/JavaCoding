@@ -1,0 +1,12 @@
+package ExcelDataDriverFramework;
+
+import java.io.IOException;
+
+public class TestSample {
+	 
+	public static void main (String[] args) throws IOException {
+		DataDriven d=new DataDriven();
+		Arraylist<String> a=d.getData("Add Profile");
+	}
+
+}

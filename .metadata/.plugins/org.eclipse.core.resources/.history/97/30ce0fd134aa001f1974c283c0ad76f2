@@ -1,0 +1,5 @@
+package Santhosh.pageObjects;
+
+public class CheckOutPage {
+
+}

@@ -1,0 +1,16 @@
+package Santhosh.pageObjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+import Santhosh.AbstractComponents.AbstractComponent;
+
+public class CheckOutPage extends AbstractComponent {
+
+	public CheckOutPage(WebDriver driver) {
+		super(driver);
+		this.driver=driver;
+		PageFactory.initElements(driver, this);
+	}
+
+}

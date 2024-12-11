@@ -1,0 +1,16 @@
+
+public class CountLetterInStringUsingForLoop {
+
+	public static void main(String[] args) {
+		String input="different";
+		
+		int[] letterCounts=new int[26];
+		for (char c: input.toCharArray()) {
+			if(Character.isDigit(c)) {
+				
+			}
+		}
+
+	}
+
+}

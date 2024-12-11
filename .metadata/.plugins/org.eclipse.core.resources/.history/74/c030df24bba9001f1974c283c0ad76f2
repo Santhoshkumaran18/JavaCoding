@@ -1,0 +1,21 @@
+package Santhosh.pageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class LandingPage {
+	
+	WebDriver driver;
+	public LandingPage(driver){
+		this.driver=driver;
+		
+	}
+
+	public static void main(String[] args) {
+		driver.findElement(By.xpath("//input[@type='email']")).sendKeys("santhoshkumaran@santhosh.com");
+		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("December2024@$");
+		driver.findElement(By.xpath("//input[@type='submit']")).click();	
+
+	}
+
+}

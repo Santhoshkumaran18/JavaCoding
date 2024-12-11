@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-23T13:54:30 IST" name="Default suite" finished-at="2024-11-23T13:54:31 IST" duration-ms="122">
+    <groups>
+    </groups>
+    <test started-at="2024-11-23T13:54:30 IST" name="Default test" finished-at="2024-11-23T13:54:31 IST" duration-ms="122">
+      <class name="testNGPackage.PS1">
+        <test-method is-config="true" signature="runmefirst()[pri:0, instance:testNGPackage.PS1@2e3967ea]" started-at="2024-11-23T13:54:31 IST" name="runmefirst" finished-at="2024-11-23T13:54:31 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runmefirst -->
+        <test-method is-config="true" signature="beforerun()[pri:0, instance:testNGPackage.PS1@2e3967ea]" started-at="2024-11-23T13:54:31 IST" name="beforerun" finished-at="2024-11-23T13:54:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforerun -->
+        <test-method signature="Testrun()[pri:0, instance:testNGPackage.PS1@2e3967ea]" started-at="2024-11-23T13:54:31 IST" name="Testrun" finished-at="2024-11-23T13:54:31 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testrun -->
+      </class> <!-- testNGPackage.PS1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

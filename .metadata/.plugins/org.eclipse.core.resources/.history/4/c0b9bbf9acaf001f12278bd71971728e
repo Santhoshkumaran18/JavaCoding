@@ -1,0 +1,13 @@
+package ExcelDataDriverFramework;
+
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class DataDriven {
+
+	public static void main(String[] args) {
+		//it only accepts as the input file stream objects
+		XSSFWorkbook workbook=new XSSFWorkbook();
+
+	}
+
+}

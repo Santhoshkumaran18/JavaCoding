@@ -1,0 +1,12 @@
+package InterviewRevision;
+
+public class pecialCharacterRemoval {
+
+	public static void main(String[] args) {
+		String s="Santhosh235905";
+		
+		String result=s.replaceAll("[^a-zA-Z]", "");
+
+	}
+
+}

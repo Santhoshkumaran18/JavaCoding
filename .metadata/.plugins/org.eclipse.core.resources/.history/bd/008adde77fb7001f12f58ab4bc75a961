@@ -1,0 +1,14 @@
+package InterviewRevision;
+
+public class RemoveSpecialCharacters {
+
+	public static void main(String[] args) {
+		String s="Delloite$$%%";
+		
+		for(char c:s.toCharArray()) {
+			
+		}
+
+	}
+
+}

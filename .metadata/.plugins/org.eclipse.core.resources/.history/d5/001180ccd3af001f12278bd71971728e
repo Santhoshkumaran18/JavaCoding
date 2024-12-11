@@ -1,0 +1,6 @@
+package DataDriven.ExcelDataProvider;
+
+public class dataProvider {
+	//we can pass multiple set of data in the form of arrays
+	
+}

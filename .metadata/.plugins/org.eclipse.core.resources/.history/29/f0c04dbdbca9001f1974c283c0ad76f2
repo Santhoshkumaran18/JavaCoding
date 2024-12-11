@@ -1,0 +1,31 @@
+package Santhosh.pageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class LandingPage {
+	
+	WebDriver driver;
+	public LandingPage(WebDriver driver){
+		this.driver=driver;
+		PageFactory.initElements(driver, this);
+		
+	}
+	@FindBy(xpath = "//input[@type='email']") //santhoshkumaran@santhosh.com
+	WebElement Username;
+	
+	@FindBy(xpath = "//input[@type='password']") //December2024@$
+	WebElement password;
+	
+	@FindBy(xpath = "//input[@type='submit']") //December2024@$
+	WebElement password;
+	
+	
+	driver.findElement(By.xpath("//input[@type='']")).click();	
+
+	
+
+}

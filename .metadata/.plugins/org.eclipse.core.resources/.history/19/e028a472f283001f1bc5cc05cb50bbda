@@ -1,0 +1,31 @@
+package introduction;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
+
+public class LocatorsExercise {
+
+	public static void main(String[] args) throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver", "C:/Users/S Santhosh Kumaran/Documents/chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5)); //Implicit wait is basically 5 sec to wait until the element is coming or not 
+		driver.get("https://www.google.com/");
+		driver.get("https://rahulshettyacademy.com/locatorspractice/");
+		driver.findElement(By.cssSelector("#inputUsername")).sendKeys("Santhosh");
+		driver.findElement(By.cssSelector("input[type*='Pass']")).sendKeys("rahulshettyacademy");
+		driver.findElement(By.id("chkboxOne")).click();
+		driver.findElement(By.id("chkboxTwo")).click();
+		driver.findElement(By.xpath("//button[@class='submit signInBtn']")).click();
+		Thread.sleep(3000);
+		String successfullLogin=driver.findElement(By.tagName("p")).getText();
+		System.out.println(successfullLogin);
+		Assert.assertEquals(successfullLogin, "You are successfully logged in.");
+		String loginPageName=driver.findElement(By.cssSelector("div[class*=\"login-container\"] h2")).getText();
+		Assert.assertEquals(loginPageName, "Hello Santhosh,");
+	}
+
+}

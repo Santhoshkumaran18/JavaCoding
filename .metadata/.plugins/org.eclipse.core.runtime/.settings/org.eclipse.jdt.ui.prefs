@@ -1,0 +1,13 @@
+content_assist_favorite_static_members=org.testng.Assert.*
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="introduction.Santhosh"><rhs name\="introduction.IE1"/></lhs><lhs name\="java.time.temporal.TemporalAmount"><rhs name\="java.time.Duration"/></lhs><lhs name\="java.lang.Enum"><rhs name\="java.util.concurrent.TimeUnit"/><rhs name\="org.openqa.selenium.WindowType"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="java.util.concurrent.TimeUnit"/><rhs name\="org.openqa.selenium.WindowType"/></lhs><lhs name\="org.openqa.selenium.support.ui.FluentWait"><rhs name\="org.openqa.selenium.support.ui.WebDriverWait"/></lhs><lhs name\="org.openqa.selenium.support.ui.Wait"><rhs name\="org.openqa.selenium.support.ui.WebDriverWait"/></lhs><lhs name\="org.openqa.selenium.support.ui.WebDriverWait"><rhs name\="org.openqa.selenium.support.ui.WebDriverWait"/></lhs><lhs name\="java.lang.CharSequence"><rhs name\="org.openqa.selenium.Keys"/></lhs><lhs name\="java.io.File"><rhs name\="java.io.File"/></lhs><lhs name\="org.openqa.selenium.chromium.ChromiumOptions"><rhs name\="org.openqa.selenium.chrome.ChromeOptions"/></lhs><lhs name\="org.openqa.selenium.remote.AbstractDriverOptions"><rhs name\="org.openqa.selenium.chrome.ChromeOptions"/></lhs><lhs name\="org.openqa.selenium.MutableCapabilities"><rhs name\="org.openqa.selenium.chrome.ChromeOptions"/></lhs><lhs name\="org.openqa.selenium.Capabilities"><rhs name\="org.openqa.selenium.chrome.ChromeOptions"/></lhs><lhs name\="org.openqa.selenium.chrome.ChromeOptions"><rhs name\="org.openqa.selenium.chrome.ChromeOptions"/></lhs><lhs name\="org.openqa.selenium.Dimension"><rhs name\="org.openqa.selenium.Dimension"/></lhs></history>
+content_assist_number_of_computers=12
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=22
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

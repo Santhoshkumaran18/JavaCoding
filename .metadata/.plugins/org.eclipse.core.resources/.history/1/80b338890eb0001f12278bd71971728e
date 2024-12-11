@@ -1,0 +1,8 @@
+package DataBaseTesting;
+
+public class jdbcConnection {
+	public static void main(String[] args) {
+		
+	}
+
+}

@@ -1,0 +1,8 @@
+
+public class CountLettersInString {
+
+	public static void main(String[] args) {
+		String input="Dashing Caaars"
+	}
+
+}

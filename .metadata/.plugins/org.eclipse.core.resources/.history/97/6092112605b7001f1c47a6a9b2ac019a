@@ -1,0 +1,15 @@
+
+public class RemoveSpecialCharacters {
+
+	public static void main(String[] args) {
+		String s="kshflkwejh#$#%%^%^#$%@!!!!";
+		
+		for(char c: s.toCharArray()) {
+			if(Character.isAlphabetic(c) || Character.isDigit(c)) {
+				System.out.println(c);
+			}
+		}
+
+	}
+
+}

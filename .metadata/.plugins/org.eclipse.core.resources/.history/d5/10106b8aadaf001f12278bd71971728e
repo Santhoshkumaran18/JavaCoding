@@ -1,0 +1,19 @@
+package ExcelDataDriverFramework;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class DataDriven {
+
+	public static void main(String[] args) throws IOException {
+		//it only accepts as the input file stream objects
+		
+		FileInputStream fis=new FileInputStream("C:/Users/S Santhosh Kumaran/Demo Data.xlsx");
+		XSSFWorkbook workbook=new XSSFWorkbook(fis);
+
+	}
+
+}

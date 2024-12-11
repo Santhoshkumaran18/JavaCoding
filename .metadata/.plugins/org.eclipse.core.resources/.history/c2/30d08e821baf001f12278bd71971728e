@@ -1,0 +1,14 @@
+package Santhosh.stepDefinitions;
+
+import Santhosh.TestComponents.BaseTest;
+import io.cucumber.java.en.Given;
+
+public class StepDefinitionsImpl extends BaseTest {
+	
+	@Given("I landed on the ecommerce page")
+	public void I_landed_on_the_ecommerce_page() {
+		launchApplication();
+		
+	}
+
+}

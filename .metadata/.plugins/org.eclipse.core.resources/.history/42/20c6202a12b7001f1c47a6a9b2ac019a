@@ -1,0 +1,15 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class CountLettersInString {
+
+	public static void main(String[] args) {
+		String input="Dashing Caaars";
+		
+		Map<Character,Integer> s=new HashMap<>();
+		for(char c: input.toCharArray()) {
+			
+		}
+	}
+
+}

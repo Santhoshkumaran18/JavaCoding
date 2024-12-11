@@ -1,0 +1,36 @@
+package Santhosh.pageObjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import Santhosh.AbstractComponents.AbstractComponent;
+
+public class CheckOutPage extends AbstractComponent {
+	WebDriver driver;
+	public CheckOutPage(WebDriver driver) {
+		super(driver);
+		this.driver=driver;
+		PageFactory.initElements(driver, this);
+	}
+	
+	@FindBy(xpath = "//input[@placeholder='Select Country']")
+	WebElement country;
+	
+	@FindBy(css = ".action__submit")
+	WebElement submitButton;
+	
+	@FindBy(css = ".ta-item:nth-of-type(2)")
+	WebElement selectCountry;
+	
+	@FindBy(css = ".hero-primary")
+	WebElement confirmMessage;
+	
+	public void selectCountry() {
+		Actions a=new Actions(driver);
+		a.sendKeys(country,"India").build().perform();
+	}
+
+}

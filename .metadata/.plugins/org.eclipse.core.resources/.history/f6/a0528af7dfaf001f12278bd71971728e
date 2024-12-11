@@ -1,0 +1,35 @@
+package DataDriven.ExcelDataProvider;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class dataProvider {
+	//we can pass multiple set of data in the form of arrays
+	@Test(dataProvider = "driveTest")
+	public void testCaseData(String username,String password,int num) {
+		System.out.println(username + password + num);
+		
+		
+	}
+	
+	@DataProvider(name = "driveTest")
+	public Object[][] getData() {
+		
+//		Object[][] data= {{"Hello","Text",1},{"Sanjay","Santhosh",2},{"Srinivasan","Umasankari",3}};
+	//Every row of cells need to get into the row
+		
+		FileInputStream fis=new FileInputStream(System.getProperty("users.dir")+ "TestData driven.xlsx" );
+		XSSFWorkbook workbook=new XSSFWorkbook(fis);
+		
+		System.out.println(workbook.getNumberOfNames());
+		return data;
+		
+	}
+	
+	
+}

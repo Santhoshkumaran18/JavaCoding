@@ -1,0 +1,13 @@
+import java.util.HashMap;
+
+public class NumberPrintUsingHashmap {
+
+	public static void main(String[] args) {
+		String s = "Santhosh";
+
+		HashMap<Character, Integer> map = new HashMap<>();
+		for(char c: s.toCharArray())
+
+	}
+
+}

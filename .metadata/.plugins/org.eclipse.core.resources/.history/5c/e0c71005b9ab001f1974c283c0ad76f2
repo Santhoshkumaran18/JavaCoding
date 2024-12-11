@@ -1,0 +1,34 @@
+package Santhosh.ExtentReports;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+import com.aventstack.extentreports.reporter.ExtentSparkReporter;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+
+public class ExtentReports {
+	
+	public void config() {
+		//ExtentReport //ExtentSparkReporter
+		String path=System.getProperty("user.dir")+ "//reports//index.html";
+		ExtentSparkReporter report=new ExtentSparkReporter(path);
+		report.config().setReportName("WebAutomationResults");
+		
+	}
+
+	@Test
+	public void InitialDemo() {
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver=new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+		driver.manage().window().maximize();
+		driver.get("https://rahulshettyacademy.com/");
+		System.out.println(driver.getTitle());
+		driver.quit();
+	}
+}

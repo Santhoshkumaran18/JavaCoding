@@ -1,0 +1,11 @@
+package InterviewRevision;
+
+public class ArrayToString {
+
+	public static void main(String[] args) {
+		String[] arr= {"Santhosh","Sanjay"};
+		List<String> list=Array.asList(arr);
+
+	}
+
+}

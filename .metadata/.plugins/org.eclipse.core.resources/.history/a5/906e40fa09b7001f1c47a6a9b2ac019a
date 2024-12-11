@@ -1,0 +1,15 @@
+import java.util.HashMap;
+
+public class CountNumbersInJava {
+
+	public static void main(String[] args) {
+		
+
+	}
+	
+	public static void countNumber(String input) {
+		HashMap<Character,Integer> charcountMap=new HashMap<>();
+		for(char c: input.toCharArray())
+	}
+
+}

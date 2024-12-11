@@ -1,0 +1,9 @@
+package Santhosh.resources;
+
+public class ExtentReporterNG {
+	
+	public void getReportObject() {
+		
+	}
+
+}

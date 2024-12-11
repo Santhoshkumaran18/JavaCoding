@@ -1,0 +1,14 @@
+package DataBaseTesting;
+
+import java.lang.module.ModuleDescriptor.Requires;
+import java.sql.DriverManager;
+
+public class jdbcConnection {
+	public static void main(String[] args) {
+		String host="localhost";
+		DriverManager.getConnection("jdbc::mysql://" + , root, admin123);
+		
+		 
+	}
+
+}

@@ -1,0 +1,18 @@
+package InterviewRevision;
+
+public class StringSorting {
+
+	public static void main(String[] args) {
+		String[] s= {"aaaa","abc","aaaac"};
+		
+		for(int i=0;i<s.length-1;i++) {
+			for(int j=0;j<s.length-i-1;j++) {
+				if(s[j].compareTo(s[j+1])>0) {
+					
+				}
+			}
+		}
+
+	}
+
+}
